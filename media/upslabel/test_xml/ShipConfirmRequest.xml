@@ -1,0 +1,100 @@
+<?xml version="1.0" ?>
+<AccessRequest xml:lang='en-US'>
+<AccessLicenseNumber>2CCA489491D01272</AccessLicenseNumber>
+<UserId>prieto.merci</UserId>
+<Password>myups0117</Password>
+</AccessRequest>
+<?xml version="1.0"?>
+<ShipmentConfirmRequest xml:lang="en-US">
+  <Request>
+    <TransactionReference>
+      <CustomerContext>admin</CustomerContext>
+      <XpciVersion/>
+    </TransactionReference>
+    <RequestAction>ShipConfirm</RequestAction>
+    <RequestOption>validate</RequestOption>
+  </Request>
+  <LabelSpecification>
+    <LabelPrintMethod>
+      <Code>GIF</Code>
+      <Description>gif file</Description>
+    </LabelPrintMethod>
+    <HTTPUserAgent>Mozilla/4.5</HTTPUserAgent>
+    <LabelImageFormat>
+      <Code>GIF</Code>
+      <Description>gif</Description>
+    </LabelImageFormat>
+  </LabelSpecification>
+  <Shipment><Description>Customer: Kristina Egbert Order Id: 100000188</Description><Shipper>
+<Name>Zeeni Inc.</Name><AttentionName></AttentionName><PhoneNumber>6263501024</PhoneNumber>
+      <ShipperNumber>E93121</ShipperNumber>
+	  <TaxIdentificationNumber></TaxIdentificationNumber>
+      <Address>
+    	<AddressLine1>9536 East Gidley St.</AddressLine1>
+    	<City>Temple City</City>
+    	<StateProvinceCode>CA</StateProvinceCode>
+    	<PostalCode>91780</PostalCode>
+    	<PostcodeExtendedLow></PostcodeExtendedLow>
+    	<CountryCode>US</CountryCode>
+     </Address>
+    </Shipper>
+	<ShipTo>
+     <CompanyName>Kristina Egbert</CompanyName>
+      <AttentionName>Kristina Egbert</AttentionName>
+      <PhoneNumber>626-350-1024</PhoneNumber>
+      <Address>
+        <AddressLine1>2152 Brookport St.</AddressLine1><City>Covina</City>
+        <StateProvinceCode>CA</StateProvinceCode>
+        <PostalCode>91724</PostalCode>
+        <CountryCode>US</CountryCode>
+        <ResidentialAddress />
+      </Address>
+    </ShipTo>
+    <ShipFrom>
+      <CompanyName>Zeeni Inc.</CompanyName>
+      <AttentionName></AttentionName>
+      <PhoneNumber>6263501024</PhoneNumber>
+	  <TaxIdentificationNumber></TaxIdentificationNumber>
+      <Address>
+        <AddressLine1>9536 East Gidley St.</AddressLine1>
+        <City>Temple City</City>
+    	<StateProvinceCode>CA</StateProvinceCode>
+    	<PostalCode>91780</PostalCode>
+    	<CountryCode>US</CountryCode>
+      </Address>
+    </ShipFrom>
+     <PaymentInformation>
+      <Prepaid>
+        <BillShipper>
+          <AccountNumber>E93121</AccountNumber>
+        </BillShipper>
+      </Prepaid>
+    </PaymentInformation>
+    <Service>
+      <Code>03</Code>
+      <Description>UPS Ground</Description>
+    </Service><Package>
+      <PackagingType>
+        <Code>02</Code>
+      </PackagingType>
+      <Description>Uniforms </Description><ReferenceNumber>
+	  	<Code></Code>
+		<Value></Value>
+	  </ReferenceNumber><Dimensions>
+<UnitOfMeasurement>
+<Code>IN</Code></UnitOfMeasurement>
+<Length>10</Length>
+<Width>12</Width>
+<Height>12</Height>
+            </Dimensions><PackageWeight>
+        <UnitOfMeasurement>
+            <Code>LBS</Code></UnitOfMeasurement>
+        <Weight>8.1</Weight>
+      </PackageWeight>
+      <PackageServiceOptions><InsuredValue>
+                <CurrencyCode>USD</CurrencyCode>
+                <MonetaryValue>402.934</MonetaryValue>
+                </InsuredValue>
+              </PackageServiceOptions>
+              </Package><ShipmentServiceOptions></ShipmentServiceOptions></Shipment>
+</ShipmentConfirmRequest>
